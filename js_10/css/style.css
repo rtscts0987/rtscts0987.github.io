@@ -2,31 +2,50 @@
   display: none;
 }
 
-/* body {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
+body {
+  
+  height: 1500px;
+  width: 700px;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-} */
+  position: relative; */
+} 
 
 div {
+  /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #clock {
+  width: 700px;
+  height: 400px;
+  margin: 500px, 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 60px;
+  
 }
 
 #login-form {
+
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+#login-form__pass{
+  margin: 10px, 250px, 0px, 0px;
+  position: absolute;
+  right: 215px;
+  border-radius: 10px;
 }
 
 #todo-form {
@@ -40,6 +59,8 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
 }
 
 #weather {
