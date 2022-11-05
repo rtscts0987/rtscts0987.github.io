@@ -1,0 +1,52 @@
+.hidden {
+  display: none;
+}
+
+/* body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+} */
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap'); */
+
